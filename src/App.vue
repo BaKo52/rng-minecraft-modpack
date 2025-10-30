@@ -246,12 +246,26 @@ const apiUrl = "https://api.modrinth.com/v2/"
         </v-row>
       </v-container>
     </v-main>
+    <v-footer class="d-flex flex-column justify-center align-center">
+      <div>
+        Made by Bastien Kotte (nicknamed BaKo).
+      </div>
+      <div>
+        <a href="https://www.bastienkotte.dev/" target="_blank">My portfolio</a>
+      </div>
+      <div>
+        Made to learn how to use VueJS, the code is probably bad but whatever this was fun and a great learning experience.
+      </div>
+      <div>
+        <a href="https://github.com/BaKo52/rng-minecraft-modpack" target="_blank">Source code available here</a>
+      </div>
+    </v-footer>
   </v-app>
 </template>
 
 <style scoped>
   .mod-list {
-    height: calc(100vh - 45vh);
+    height: calc(100vh - 50vh);
     overflow-y: auto;
   }
 </style>
